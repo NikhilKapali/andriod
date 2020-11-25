@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:id="@+id/parent_layout_table">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/table_image"
+        android:src="@drawable/ic_tag_faces_black_24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Table List"
+        android:id="@+id/image_name"
+        android:layout_toRightOf="@+id/table_image"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="40dp"
+        android:textSize="25dp"
+
+        />
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About_Us_Activity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/lay1"
+    android:orientation="vertical">
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/map_location"
+        android:src="@drawable/ic_map_black_24dp"
+        android:text="View Map"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Our Location"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_below="@+id/lay1"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/tv1"
+        android:text="In 1999, we started off as the first specialty coffee shop in Nepal to specialize in handcrafted
+ coffee and bakery. Over the years, we have diversified from a small coffee shop to an international franchising Nepalese Coffee Brand with more than 30 outlets around the world."/>
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_below="@+id/tv1"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/tv2"
+    android:text="Coffee plantation is still a new adventure in Nepal. In 1938 AD, a hermit Mr Hira Giri had brought some seeds of Coffee from Sindu Province of Myanmar (the then Burma) and had planted in Aapchaur of Gulmi District for the first time in Nepal."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_below="@+id/tv2"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:text="The crop remained unnoticed as a curiosity crop until 1970s. Then it spread from one farmer to another as a curiosity plant for about 4 decades."/>
+</RelativeLayout>
+</ScrollView>
